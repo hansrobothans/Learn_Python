@@ -7,6 +7,9 @@ print("下面依次输出你的名字每个字：")
 #开始循环
 for i in name:
     print(i)
+# 循环完后执行
+else:
+    print("*"*10)
 
 
 

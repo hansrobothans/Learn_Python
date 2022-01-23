@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="3b38276c414d4a0c86062bd6f6fe5a58" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="d155e952345547bcbedd6d2c63048e94" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_3b38276c414d4a0c86062bd6f6fe5a58 = echarts.init(
-            document.getElementById('3b38276c414d4a0c86062bd6f6fe5a58'), 'white', {renderer: 'canvas'});
-        var option_3b38276c414d4a0c86062bd6f6fe5a58 = {
+        var chart_d155e952345547bcbedd6d2c63048e94 = echarts.init(
+            document.getElementById('d155e952345547bcbedd6d2c63048e94'), 'white', {renderer: 'canvas'});
+        var option_d155e952345547bcbedd6d2c63048e94 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -54,6 +54,7 @@
             "symbolSize": 4,
             "showSymbol": true,
             "smooth": false,
+            "clip": true,
             "step": false,
             "data": [
                 [
@@ -128,10 +129,15 @@
         "axisPointer": {
             "type": "line"
         },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
         "textStyle": {
             "fontSize": 14
         },
-        "borderWidth": 0
+        "borderWidth": 0,
+        "padding": 5
     },
     "xAxis": [
         {
@@ -203,7 +209,7 @@
         }
     ]
 };
-        chart_3b38276c414d4a0c86062bd6f6fe5a58.setOption(option_3b38276c414d4a0c86062bd6f6fe5a58);
+        chart_d155e952345547bcbedd6d2c63048e94.setOption(option_d155e952345547bcbedd6d2c63048e94);
     </script>
 </body>
 </html>
